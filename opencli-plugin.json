@@ -1,0 +1,6 @@
+{
+  "name": "messenger-hermes",
+  "version": "0.1.0",
+  "description": "Read a Facebook Page inbox in Meta Business Suite, draft replies with Hermes CLI and send them through the browser UI.",
+  "opencli": ">=2.0.0 <3"
+}

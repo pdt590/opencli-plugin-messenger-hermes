@@ -1,0 +1,19 @@
+{
+  "name": "opencli-plugin-messenger-hermes",
+  "version": "0.1.0",
+  "description": "OpenCLI plugin: Facebook Page Messenger inbox -> Hermes CLI -> reply, driven entirely through the browser UI.",
+  "type": "module",
+  "private": true,
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "test": "node --test \"tests/*.test.js\"",
+    "watch": "node scripts/watch.js"
+  },
+  "peerDependencies": {
+    "@jackwener/opencli": ">=2.0.0 <3"
+  },
+  "keywords": ["opencli", "messenger", "facebook", "hermes", "chatbot", "plugin"]
+}
